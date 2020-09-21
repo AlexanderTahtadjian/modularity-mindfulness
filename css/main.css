@@ -4,6 +4,7 @@ html {
   text-size-adjust: 100%;
   font-family: "Noto Sans", sans-serif;
   line-height: 1.5;
+  background-color: #e2e2e2;
 }
 
 *,
@@ -24,4 +25,21 @@ body {
 img {
   display: block;
   width: 100%;
+}
+
+h1, h2, p {
+  color: #000;
+}
+
+ul, a {
+  color: #3783a3;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  padding: 1rem;
 }
