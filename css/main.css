@@ -22,6 +22,29 @@ body {
   margin: 0;
 }
 
+main {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.main figure {
+  grid-column: 2;
+  grid-row: 2;
+  z-index: 1;
+}
+
+header {
+  display: contents;
+  font-family: "Patua One", sans-serif;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1rem;
+}
+
 img {
   display: block;
   width: 100%;
