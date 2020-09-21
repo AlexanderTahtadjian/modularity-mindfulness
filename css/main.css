@@ -54,17 +54,39 @@ h1, h2, p {
   color: #000;
 }
 
+h1, body {
+  text-align: center;
+}
+
+figcaption {
+  text-align: left;
+}
+
 ul, a {
   color: #3783a3;
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 14rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 li {
   display: inline-block;
   padding: 1rem;
+}
+
+.btn {
+  color: #3783a3;
+  background-color: #e2e2e2;
+  border-color: #3783a3;
+  text-decoration: none;
+  border-width: .2rem;
+  border-radius: .3rem;
 }
 
 @media only screen and (min-width: 38em) {
