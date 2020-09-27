@@ -18,7 +18,7 @@ html {
   font-style: normal;
 }
 
-body {
+div {
   margin: 0;
   display: grid;
   grid-template-areas:
@@ -32,7 +32,7 @@ main {
   grid-gap: 1rem;
 }
 
-.main figure {
+.main article {
   grid-column: 2;
   grid-row: 2;
   z-index: 1;
