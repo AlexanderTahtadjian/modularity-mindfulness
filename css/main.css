@@ -45,8 +45,14 @@ header {
 
 .banner {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-area: main;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1rem;
+}
+
+.banner img {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
 }
 
 img {
