@@ -103,4 +103,10 @@ li {
     flex-wrap: wrap;
   }
 
+  img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
 }
