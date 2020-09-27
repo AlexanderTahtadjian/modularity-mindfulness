@@ -20,6 +20,10 @@ html {
 
 body {
   margin: 0;
+  display: grid;
+  grid-template-areas:
+  "masthead masthead"
+  "main" ;
 }
 
 main {
@@ -98,6 +102,10 @@ li {
   text-decoration: none;
   border-width: .2rem;
   border-radius: .3rem;
+}
+
+footer {
+  font-size: 1rem;
 }
 
 @media only screen and (min-width: 38em) {
