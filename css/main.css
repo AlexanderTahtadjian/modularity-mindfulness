@@ -66,6 +66,10 @@ i {
   flex-wrap: wrap;
 }
 
+.main-title {
+  display: inline-block;
+}
+
 h1 {
   display: flex;
   flex-wrap: wrap;
@@ -135,6 +139,10 @@ footer {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+  }
+
+  .main-title {
+    display: table;
   }
 
 }
