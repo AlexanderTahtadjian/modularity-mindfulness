@@ -61,6 +61,11 @@ img {
   align-items: center;
 }
 
+i {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 h1 {
   display: flex;
   flex-wrap: wrap;
@@ -76,12 +81,12 @@ h1, body {
   text-align: center;
 }
 
-figcaption {
-  text-align: left;
+section {
+  padding: 1rem;
 }
 
 .text-a {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 ul, a {
