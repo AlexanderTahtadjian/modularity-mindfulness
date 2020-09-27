@@ -85,6 +85,10 @@ section {
   padding: 1rem;
 }
 
+figcaption {
+  text-align: left;
+}
+
 .text-a {
   font-size: 1rem;
 }
