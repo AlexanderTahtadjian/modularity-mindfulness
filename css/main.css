@@ -39,7 +39,7 @@ main {
 }
 
 header {
-  display: contents;
+  display: flex;
   font-family: "Patua One", sans-serif;
 }
 
@@ -147,11 +147,6 @@ footer {
   figure {
     display: flex;
     flex-wrap: wrap;
-  }
-
-  ul {
-    position: absolute;
-    display: inline-flex;
   }
 
   img {
