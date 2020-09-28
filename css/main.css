@@ -135,6 +135,7 @@ li {
   text-decoration: none;
   border-width: .2rem;
   border-radius: .3rem;
+  border-style: solid;
 }
 
 footer {
