@@ -67,7 +67,8 @@ i {
 }
 
 .main-title {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -115,7 +116,7 @@ ul, a {
 ul {
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 14rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -147,6 +148,14 @@ footer {
   figure {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  section {
+    display: flex;
   }
 
   img {
