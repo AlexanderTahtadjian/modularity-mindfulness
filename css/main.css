@@ -145,6 +145,11 @@ footer {
     flex-wrap: wrap;
   }
 
+  ul {
+    position: absolute;
+    display: inline-flex;
+  }
+
   img {
     display: flex;
     flex-wrap: wrap;
