@@ -18,6 +18,10 @@ html {
   font-style: normal;
 }
 
+body {
+  margin: 0;
+}
+
 section {
   margin: 0;
   display: grid;
@@ -84,6 +88,7 @@ h2 span {
 
 nav a {
   color: #3783a3;
+  text-decoration-color: rgba(55, 131, 163, .5);
 }
 
 .intro {
@@ -95,7 +100,11 @@ nav a {
   border-bottom: .2rem solid #e2e2e2;
 }
 
-ul {
+.intro i {
+  font-size: 2rem;
+}
+
+nav ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
